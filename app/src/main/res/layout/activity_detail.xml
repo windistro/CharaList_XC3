@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_chara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:text="@tools:sample/lorem"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:padding="8dp"
+            android:textSize="12sp"
+            tools:text="@string/description" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/gender" />
+
+                    <TextView
+                        android:id="@+id/chara_gender"
+                        style="@style/TextContent.BodyMedium.Gray"
+                        android:layout_weight="1"
+                        tools:text="@string/gender" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/faction" />
+
+                    <TextView
+                        android:id="@+id/chara_faction"
+                        style="@style/TextContent.BodyMedium.Gray"
+                        android:layout_weight="1"
+                        tools:text="@string/faction" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/role" />
+
+                    <TextView
+                        android:id="@+id/chara_role"
+                        style="@style/TextContent.BodyMedium.Gray"
+                        android:layout_weight="1"
+                        tools:text="@string/role" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/va" />
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:text="@string/english" />
+
+                    <TextView
+                        android:id="@+id/chara_va_en"
+                        style="@style/TextContent.BodyMedium.Gray"
+                        android:layout_weight="1"
+                        tools:text="@string/english" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:layout_marginEnd="16dp" />
+
+                    <TextView
+                        style="@style/TextContent.BodyMedium.Bold"
+                        android:text="@string/japan" />
+
+                    <TextView
+                        android:id="@+id/chara_va_jp"
+                        style="@style/TextContent.BodyMedium.Gray"
+                        android:layout_weight="1"
+                        tools:text="@string/japan" />
+                </TableRow>
+
+            </TableLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

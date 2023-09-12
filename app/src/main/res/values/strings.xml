@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Xenoblade3</string>
+
+    <string name="character_name">Character Name</string>
+    <string name="description">Description</string>
+    <string name="detail">Detail</string>
+    <string name="gender">Gender</string>
+    <string name="faction">Faction</string>
+    <string name="role">Starting Role</string>
+    <string name="va">Voice Actor</string>
+    <string name="english">EN</string>
+    <string name="japan">JP</string>
+
+    <string name="about">About</string>
+    <string name="myname">Hans Havilah Fadhlan</string>
+    <string name="email">hanshavilahf@gmail.com</string>
+
+    <string-array name="data_name">
+        <item>Alexandria</item>
+        <item>Ashera</item>
+        <item>Ethel</item>
+        <item>Eunie</item>
+        <item>Fiona</item>
+        <item>Juniper</item>
+        <item>Lanz</item>
+        <item>Melia</item>
+        <item>Mio</item>
+        <item>Miyabi</item>
+        <item>Nia</item>
+        <item>Noah</item>
+        <item>Sena</item>
+        <item>Taion</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Alexandria is an Attacker and Incurser and uses a sword as her weapon. She can easily land critical hits using her arts and deal massive damage against enemies.</item>
+        <item>Ashera is a spear-user, specifically she wields a double-ended one. She excels at luring enemies by increasing their Aggro and hitting them back once they get in range.</item>
+        <item>There\'s a bit of history between Noah\'s team and Ethel. When they were all much younger, Ethel saved them from an Agnian attack. Since then, Noah and his friends have looked up to her, so why does she now see them as enemies?</item>
+        <item>Eunie is a childhood friend of Noah and Lanz who has a sharp tongue and rough personality. She specializes in setting up support fields that heal and strengthen her allies in battle.</item>
+        <item>Fiona is a Healer and a spear user. She uses her spear to attack enemies and her arts to assist her allies in a battle.</item>
+        <item>Juniper is an Attacker and a Stalker who uses a bow to attack her enemies. They excel at hiding and striking foes from a distance using their bow.</item>
+        <item>Lanz is an ally of Noah’s who wields a great sword that doubles as a shield. He uses his giant weapon to draw in enemy attacks and protect his allies.</item>
+        <item>Melia is the queen of Keves and she was also a playable character in the original Xenoblade Chronicles game.</item>
+        <item>The other protagonist of this story, Mio, is a soldier of Agnus and an off-seer like Noah. She is a specialist in evasion, which allows her to unleash powerful counters while dodging enemy attacks.</item>
+        <item>Miyabi is an off-seer in Colony Gamma, an experimental Colony where Mio and Sena were stationed before a terrible accident forced them to flee without her.</item>
+        <item>Nia is the queen of Agnus and she was also a playable character in Xenoblade Chronicles 2.</item>
+        <item>Noah is one of the protagonists of Xenoblade Chronicles 3 and a solider of Keves. He is also an “off-seer” who mourns for soldiers who’ve lost their lives on the battlefield. He is an Attacker with balanced abilities, who specializes in fighting Bosses.</item>
+        <item>Sena is an ally of Mio and Taion. Despite her petite figure, Sena wields immense physical strength! She is an Attacker who specializes in powerful, single blows, using her giant hammer to crush her enemies easily.</item>
+        <item>Taion is a tactician who fights alongside Mio using his smarts and insight. He is known for supporting his allies by putting enemies to sleep or nullifying their damage.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/alexandria</item>
+        <item>@drawable/ashera</item>
+        <item>@drawable/ethel</item>
+        <item>@drawable/eunie</item>
+        <item>@drawable/fiona</item>
+        <item>@drawable/juniper</item>
+        <item>@drawable/lanz</item>
+        <item>@drawable/melia</item>
+        <item>@drawable/mio</item>
+        <item>@drawable/miyabi</item>
+        <item>@drawable/nia</item>
+        <item>@drawable/noah</item>
+        <item>@drawable/sena</item>
+        <item>@drawable/taion</item>
+    </integer-array>
+
+    <string-array name="data_gender">
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="data_role">
+        <item>Attacker</item>
+        <item>Defender</item>
+        <item>Attacker</item>
+        <item>Healer</item>
+        <item>Healer</item>
+        <item>Attacker</item>
+        <item>Defender</item>
+        <item>Attacker</item>
+        <item>Defender</item>
+        <item>Healer</item>
+        <item>Healer</item>
+        <item>Attacker</item>
+        <item>Attacker</item>
+        <item>Healer</item>
+    </string-array>
+
+    <string-array name="data_faction">
+        <item>Agnus</item>
+        <item>Keves</item>
+        <item>Keves</item>
+        <item>Keves</item>
+        <item>Keves</item>
+        <item>Agnus</item>
+        <item>Keves</item>
+        <item>Keves</item>
+        <item>Agnus</item>
+        <item>Agnus</item>
+        <item>Agnus</item>
+        <item>Agnus</item>
+        <item>Keves</item>
+        <item>Keves</item>
+        <item>Agnus</item>
+    </string-array>
+
+    <string-array name="va_en">
+        <item>Sharlit Deyzac</item>
+        <item>Cassie Layton</item>
+        <item>Lucy Doyle</item>
+        <item>Kitty Archer</item>
+        <item>Rebecca Benson</item>
+        <item>Lilly Hart</item>
+        <item>Jack Bardoe</item>
+        <item>Jenna Coleman</item>
+        <item>Aimee-Ffion Edwards</item>
+        <item>Sorcha Groundsell</item>
+        <item>Catrin-Mai Huw</item>
+        <item>Harry McEntire</item>
+        <item>Rebecca LaChance</item>
+        <item>Oliver Huband</item>
+    </string-array>
+
+    <string-array name="va_jp">
+        <item>Ami Koshimizu</item>
+        <item>Mao Ichimichi (M.A.O)</item>
+        <item>Atsumi Tanezaki</item>
+        <item>Megumi Han</item>
+        <item>Aoi Yuki</item>
+        <item>Rie Kugimiya</item>
+        <item>Kosuke Tanabe</item>
+        <item>Shiroi Katsuta</item>
+        <item>Minami Tsuda</item>
+        <item>Misato Fukuen</item>
+        <item>Hitomi Ōwada</item>
+        <item>Ryôhei Arai</item>
+        <item>Miyuki Satô</item>
+        <item>Ryohei Kimura</item>
+    </string-array>
+</resources>
